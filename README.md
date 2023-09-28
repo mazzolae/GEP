@@ -17,9 +17,9 @@
    - Deve essere possibile categorizzare le transazioni (ad esempio, cibo, affitto, spese mediche).
    - Il sistema deve calcolare automaticamente il saldo disponibile per ciascun budget.
 
-## 5. Monitoraggio e Report
-   - Gli utenti devono avere accesso a report dettagliati che mostrano il progresso verso il raggiungimento degli obiettivi finanziari.
-   - I report devono includere grafici e diagrammi esplicativi.
+## 5. Monitoraggio
+   - Gli utenti devono avere accesso ai monitoraggi dettagliati che mostrano il progresso verso il raggiungimento degli obiettivi finanziari.
+   - I monitoraggi devono includere grafici e diagrammi esplicativi.
    - Deve essere possibile visualizzare il saldo e la spesa totale per ciascuna categoria di transazione.
 
 ## 6. Notifiche
