@@ -78,22 +78,4 @@
 ## 8. Aggiornamento del Software (Amministratore del Sistema)
 - L'amministratore del sistema può installare gli aggiornamenti del software per garantire le prestazioni e la sicurezza ottimali dell'applicazione.
 
-<img src=“https://yuml.me/diagram/usecase/[Utente Registrato]-(Login In),
-(Login In)>(Inserire dati di accesso),
-(Login In)<(Recupero della password),
-(Login In)<(Modifica Profilo),
-[Utente Registrato]- (Registrazione delle entrate),
-(Registrazione delle entrate)>(Aggiunta fonte di reddito),
-(Registrazione delle entrate)>(Visualizzazione del riepilogo delle entrate),
-(Aggiunta fonte di reddito)<(Modifica o Eliminazione della fonte di reddito),
-[Utente Registrato]- (Gestione delle spese),
-(Gestione delle spese)>(Aggiunta di una spesa),
-(Aggiunta di una spesa)< (Modifica o eliminazione di una spesa),
-[Utente Registrato]- (Pianificazione del budget),
-(Pianificazione del budget)>(Creazione di un budget mensile),
-(Creazione di un budget mensile)>(Aggiornamento del budget),
-[Utente Registrato]- (Visualizzazione delle Analisi Finanziarie),(Visualizzazione delle Analisi Finanziarie)>(Visualizzazione di grafici),[Utente Registrato]< (Gestione delle Notifiche),
-(Gestione delle Notifiche)>(Notifica superamento dei limiti di spesa),[Amministratore del sistema]-(Gestione degli Utenti),
-(Gestione degli Utenti)<(Disabilitazione o Eliminazione utenti),[Amministratore del sistema]-(Aggiornamento del software),
-(Gestione degli Utenti)>(Assistenza agli Utenti),
-[Utente Non Registrato] - (Sign Up),”>
+<img src="https://yuml.me/diagram/usecase/[Utente%20Registrato]-(Login%20In),%20(Login%20In)%3E(Inserire%20dati%20di%20accesso),%20(Login%20In)%3C(Recupero%20della%20password),%20(Login%20In)%3C(Modifica%20Profilo),%20[Utente%20Registrato]-(Registrazione%20delle%20entrate),%20(Registrazione%20delle%20entrate)%3E(Aggiunta%20fonte%20di%20reddito),%20(Registrazione%20delle%20entrate)%3E(Visualizzazione%20del%20riepilogo%20delle%20entrate),%20(Aggiunta%20fonte%20di%20reddito)%3C(Modifica%20o%20Eliminazione%20della%20fonte%20di%20reddito),%20[Utente%20Registrato]-(Gestione%20delle%20spese),%20(Gestione%20delle%20spese)%3E(Aggiunta%20di%20una%20spesa),%20(Aggiunta%20di%20una%20spesa)%3C(Modifica%20o%20eliminazione%20di%20una%20spesa),%20[Utente%20Registrato]-(Pianificazione%20del%20budget),%20(Pianificazione%20del%20budget)%3E(Creazione%20di%20un%20budget%20mensile),%20(Creazione%20di%20un%20budget%20mensile)%3E(Aggiornamento%20del%20budget),%20[Utente%20Registrato]-(Visualizzazione%20delle%20Analisi%20Finanziarie),%20(Visualizzazione%20delle%20Analisi%20Finanziarie)%3E(Visualizzazione%20di%20grafici),%20[Utente%20Registrato]%3C(Gestione%20delle%20Notifiche),%20(Gestione%20delle%20Notifiche)%3E(Notifica%20superamento%20dei%20limiti%20di%20spesa),%20[Amministratore%20del%20sistema]-(Gestione%20degli%20Utenti),%20(Gestione%20degli%20Utenti)%3C(Disabilitazione%20o%20Eliminazione%20utenti),%20[Amministratore%20del%20sistema]-(Aggiornamento%20del%20software),%20(Gestione%20degli%20Utenti)%3E(Assistenza%20agli%20Utenti),%20[Utente%20Non%20Registrato]-(Sign%20Up),">
