@@ -1,35 +1,80 @@
-# Requisiti Specifici Webapp Gestione Finanziaria
+#  Specifica Dei Requisiti Webapp Gestione Finanziaria
 
-## 1. Registrazione e Autenticazione
-   - Gli utenti devono essere in grado di registrare un account utilizzando un indirizzo email valido o un account di un social media.
-   - Il sistema deve consentire l'autenticazione degli utenti registrati.
 
-## 2. Profilo Utente
-   - Gli utenti devono poter creare e aggiornare il proprio profilo utente con informazioni personali.
-   - Deve essere possibile modificare la password dell'account.
+## 1. Requisiti di Autenticazione
+### 1.1 Login
+- Gli utenti registrati possono effettuare il login inserendo le loro credenziali.
+- Include: Inserire dati di accesso.
+- Extend: Recupero della password.
 
-## 3. Creazione di Budget
-   - Gli utenti devono poter creare più budget, ognuno con un nome e una data di inizio e fine.
-   - Deve essere possibile impostare obiettivi finanziari per ciascun budget.
+### 1.2 Recupero Password
+- Gli utenti possono richiedere il recupero della password tramite email o numero di telefono.
+- Il sistema invierà un link di ripristino alla casella di posta dell'utente.
+- Include: Recupero della password.
 
-## 4. Gestione delle Transazioni
-   - Gli utenti devono poter inserire dettagliate transazioni finanziarie (entrate e uscite) e associarle a un budget specifico.
-   - Deve essere possibile categorizzare le transazioni (ad esempio, cibo, affitto, spese mediche).
-   - Il sistema deve calcolare automaticamente il saldo disponibile per ciascun budget.
+### 1.3 Modifica Profilo
+- Gli utenti registrati possono modificare le informazioni del loro profilo.
+- Include: Modifica del Profilo Utente.
 
-## 5. Monitoraggio
-   - Gli utenti devono avere accesso ai monitoraggi dettagliati che mostrano il progresso verso il raggiungimento degli obiettivi finanziari.
-   - I monitoraggi devono includere grafici e diagrammi esplicativi.
-   - Deve essere possibile visualizzare il saldo e la spesa totale per ciascuna categoria di transazione.
+### 1.4 Registrazione
+- Gli utenti non registrati devono effettuare la registrazione fornendo informazioni di base.
+- Include: Sign Up.
 
-## 6. Notifiche
-   - Gli utenti devono ricevere notifiche periodiche relative ai budget e alle scadenze delle transazioni.
-   - Deve essere possibile personalizzare le preferenze di notifica.
+## 2. Gestione delle Entrate
+### 2.1 Aggiunta Fonte di Reddito
+- Gli utenti possono aggiungere fonti di reddito (stipendi, interessi, ecc.).
+- Include: Aggiunta di una Fonte di Reddito.
+- Extend: Modifica o Eliminazione della fonte di reddito.
 
-## 7. Importazione ed Esportazione
-   - Gli utenti devono poter importare dati finanziari da fonti esterne (ad esempio, estratti conto bancari) per semplificare l'inserimento delle transazioni.
-   - Deve essere possibile esportare dati finanziari per scopi di archiviazione o analisi.
+### 2.2 Visualizzazione Riepilogo delle Entrate
+- Gli utenti possono visualizzare un riepilogo delle entrate registrate.
+- Include: Visualizzazione del riepilogo delle entrate.
 
-## 8. Sicurezza
-   - Il sistema deve garantire la sicurezza dei dati degli utenti, incluso l'uso di crittografia per le informazioni sensibili.
-   - Deve essere implementato un sistema di backup dei dati.
+## 3. Gestione delle Spese
+### 3.1 Aggiunta di una Spesa
+- Gli utenti possono registrare spese in varie categorie.
+- Include: Aggiunta di una spesa.
+- Extend: Modifica o Eliminazione di una spesa.
+
+### 3.2 Visualizzazione Riepilogo delle Spese
+- Gli utenti possono visualizzare un riepilogo delle spese registrate.
+- Include: Visualizzazione del riepilogo delle spese.
+
+## 4. Pianificazione del Budget
+### 4.1 Creazione di un Budget Mensile
+- Gli utenti possono creare un budget mensile basato sulle loro entrate e categorie di spesa.
+- Include: Creazione di un budget mensile.
+- Include: Aggiornamento del budget.
+
+### 4.2 Aggiornamento del Budget
+- Gli utenti possono aggiornare il budget in base alle entrate effettive e alle spese.
+- Include: Aggiornamento del budget.
+
+### 4.3 Visualizzazione del Budget Corrente
+- Gli utenti possono visualizzare il budget corrente e le differenze tra budget pianificato ed effettivo.
+
+## 5. Analisi Finanziaria
+### 5.1 Visualizzazione dei Grafici
+- Gli utenti possono visualizzare grafici e report dettagliati sulle loro entrate e spese.
+- Include: Visualizzazione dei Grafici e dei Report Finanziari.
+
+### 5.2 Ricezione di Consigli Finanziari
+- Gli utenti riceveranno consigli finanziari basati sulle abitudini di spesa.
+- Include: Ricezione di Consigli Finanziari.
+
+## 6. Gestione delle Notifiche
+### 6.1 Notifica Superamento dei Limiti di Spesa
+- Gli utenti riceveranno notifiche quando superano i limiti di spesa predefiniti.
+  
+## 7. Gestione degli Utenti (Amministratore del Sistema)
+### 7.1 Creazione di Utenti
+- L'amministratore del sistema può creare nuovi utenti e assegnare privilegi.
+- Extend: Disabilitazione o Eliminazione di Utenti.
+- Extend: Modifica dei Privilegi degli Utenti.
+
+### 7.2 Assistenza agli Utenti
+- L'amministratore del sistema può fornire assistenza agli utenti e risolvere i loro problemi.
+  
+## 8. Aggiornamento del Software (Amministratore del Sistema)
+- L'amministratore del sistema può installare gli aggiornamenti del software per garantire le prestazioni e la sicurezza ottimali dell'applicazione.
+
