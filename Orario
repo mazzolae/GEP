@@ -1,0 +1,33 @@
+package main
+
+import (
+    "fmt"  
+)
+
+func main() {
+    var oraInizio, minInizio, oraFine, minFine int
+
+    fmt.Print("Ora inizio (hh.mm): ")
+    if _, err := fmt.Scanf("%d.%d", &oraInizio, &minInizio); err != nil {
+        fmt.Println("Errore nell'input. Assicurati di inserire un formato valido (hh.mm).")
+        return
+    }
+
+    fmt.Print("Ora fine (hh.mm): ")
+    if _, err := fmt.Scanf("%d.%d", &oraFine, &minFine); err != nil {
+        fmt.Println("Errore nell'input. Assicurati di inserire un formato valido (hh.mm).")
+        return
+    }
+
+    if oraInizio < 0 || oraInizio > 23 || minInizio < 0 || minInizio > 59 ||
+        oraFine < 0 || oraFine > 23 || minFine < 0 || minFine > 59 {
+        fmt.Println("Errore nell'input. Assicurati che le ore e i minuti siano in intervalli validi.")
+        return
+    }
+
+    if oraFine < oraInizio || (oraFine == oraInizio && minFine <= minInizio) {
+        fmt.Println("Attenzione, l'ora di fine è prima dell'ora di inizio!")
+    } else {
+        fmt.Println("STOP")
+    }
+}
