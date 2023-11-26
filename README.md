@@ -1,10 +1,9 @@
 #  Specifica Dei Requisiti Webapp Gestione Finanziaria
 
-
 ## 1. Requisiti di Autenticazione
 ### 1.1 Login
 - Gli utenti registrati possono effettuare il login inserendo le loro credenziali.
-- Include: Inserire dati di accesso.
+- Include: Inserimento delle credenziali di accesso.
 - Extend: Recupero della password.
 
 ### 1.2 Recupero Password
@@ -24,7 +23,8 @@
 ### 2.1 Aggiunta Fonte di Reddito
 - Gli utenti possono aggiungere fonti di reddito (stipendi, interessi, ecc.).
 - Include: Aggiunta di una Fonte di Reddito.
-- Extend: Modifica o Eliminazione della fonte di reddito.
+- Extend: Modifica della fonte di reddito.
+- Extend: Eliminazione della finte di reddito.
 
 ### 2.2 Visualizzazione Riepilogo delle Entrate
 - Gli utenti possono visualizzare un riepilogo delle entrate registrate.
@@ -69,7 +69,7 @@
 ## 7. Gestione degli Utenti (Amministratore del Sistema)
 ### 7.1 Creazione di Utenti
 - L'amministratore del sistema può creare nuovi utenti e assegnare privilegi.
-- Extend: Disabilitazione o Eliminazione di Utenti.
+- Extend: Disabilitazione o Eliminazione di Utenti.                
 - Extend: Modifica dei Privilegi degli Utenti.
 
 ### 7.2 Assistenza agli Utenti
@@ -78,5 +78,6 @@
 ## 8. Aggiornamento del Software (Amministratore del Sistema)
 - L'amministratore del sistema può installare gli aggiornamenti del software per garantire le prestazioni e la sicurezza ottimali dell'applicazione.
 
+
 ## DIAGRAMMA UML
-<img src="https://yuml.me/diagram/usecase/[Utente%20Registrato]-(Login%20In),%20(Login%20In)%3E(Inserire%20dati%20di%20accesso),%20(Login%20In)%3C(Recupero%20della%20password),%20(Login%20In)%3C(Modifica%20Profilo),%20[Utente%20Registrato]-(Registrazione%20delle%20entrate),%20(Registrazione%20delle%20entrate)%3E(Aggiunta%20fonte%20di%20reddito),%20(Registrazione%20delle%20entrate)%3E(Visualizzazione%20del%20riepilogo%20delle%20entrate),%20(Aggiunta%20fonte%20di%20reddito)%3C(Modifica%20o%20Eliminazione%20della%20fonte%20di%20reddito),%20[Utente%20Registrato]-(Gestione%20delle%20spese),%20(Gestione%20delle%20spese)%3E(Aggiunta%20di%20una%20spesa),%20(Aggiunta%20di%20una%20spesa)%3C(Modifica%20o%20eliminazione%20di%20una%20spesa),%20[Utente%20Registrato]-(Pianificazione%20del%20budget),%20(Pianificazione%20del%20budget)%3E(Creazione%20di%20un%20budget%20mensile),%20(Creazione%20di%20un%20budget%20mensile)%3E(Aggiornamento%20del%20budget),%20[Utente%20Registrato]-(Visualizzazione%20delle%20Analisi%20Finanziarie),%20(Visualizzazione%20delle%20Analisi%20Finanziarie)%3E(Visualizzazione%20di%20grafici),%20[Utente%20Registrato]%3C(Gestione%20delle%20Notifiche),%20(Gestione%20delle%20Notifiche)%3E(Notifica%20superamento%20dei%20limiti%20di%20spesa),%20[Amministratore%20del%20sistema]-(Gestione%20degli%20Utenti),%20(Gestione%20degli%20Utenti)%3C(Disabilitazione%20o%20Eliminazione%20utenti),%20[Amministratore%20del%20sistema]-(Aggiornamento%20del%20software),%20(Gestione%20degli%20Utenti)%3E(Assistenza%20agli%20Utenti),%20[Utente%20Non%20Registrato]-(Sign%20Up),">
+<img src="https://yuml.me/diagram/usecase/[Utente%20Registrato]-(Login%20In),%20(Login%20In)%3E(Inserimento%20credenziali%20di%20accesso),%20(Login%20In)%3C(Recupero%20della%20password),%20(Login%20In)%3C(Modifica%20Profilo),%20[Utente%20Registrato]-(Registrazione%20delle%20entrate),%20(Registrazione%20delle%20entrate)%3E(Aggiunta%20fonte%20di%20reddito),%20(Registrazione%20delle%20entrate)%3E(Visualizzazione%20del%20riepilogo%20delle%20entrate),%20(Aggiunta%20fonte%20di%20reddito)%3C(Modifica%20o%20Eliminazione%20della%20fonte%20di%20reddito),%20[Utente%20Registrato]-(Gestione%20delle%20spese),%20(Gestione%20delle%20spese)-(Aggiunta%20di%20una%20spesa),%20(Aggiunta%20di%20una%20spesa)%3C(Modifica%20o%20eliminazione%20di%20una%20spesa),%20[Utente%20Registrato]-(Pianificazione%20del%20budget),%20(Pianificazione%20del%20budget)-(Creazione%20di%20un%20budget%20mensile),%20(Creazione%20di%20un%20budget%20mensile)%3E(Aggiornamento%20del%20budget),%20[Utente%20Registrato]-(Visualizzazione%20delle%20Analisi%20Finanziarie),%20(Visualizzazione%20delle%20Analisi%20Finanziarie)%3E(Visualizzazione%20di%20grafici),%20(Visualizzazione%20di%20grafici)%3C(Gestione%20delle%20Notifiche),%20(Gestione%20delle%20Notifiche)%3E(Notifica%20superamento%20dei%20limiti%20di%20spesa),%20[Amministratore%20del%20sistema]-(Gestione%20degli%20Utenti),%20(Gestione%20degli%20Utenti)%3C(Disabilitazione%20o%20Eliminazione%20utenti),%20[Amministratore%20del%20sistema]-(Aggiornamento%20del%20software),%20(Gestione%20degli%20Utenti)%3E(Assistenza%20agli%20Utenti),">
