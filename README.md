@@ -79,5 +79,39 @@
 - L'amministratore del sistema può installare gli aggiornamenti del software per garantire le prestazioni e la sicurezza ottimali dell'applicazione.
 
 
-## DIAGRAMMA UML
+# DIAGRAMMA UML
 <img src="https://yuml.me/diagram/usecase/[Utente%20Registrato]-(Login%20In),%20(Login%20In)%3E(Inserimento%20credenziali%20di%20accesso),%20(Login%20In)%3C(Recupero%20della%20password),%20(Login%20In)%3C(Modifica%20Profilo),%20[Utente%20Registrato]-(Registrazione%20delle%20entrate),%20(Registrazione%20delle%20entrate)%3E(Aggiunta%20fonte%20di%20reddito),%20(Registrazione%20delle%20entrate)%3E(Visualizzazione%20del%20riepilogo%20delle%20entrate),%20(Aggiunta%20fonte%20di%20reddito)%3C(Modifica%20o%20Eliminazione%20della%20fonte%20di%20reddito),%20[Utente%20Registrato]-(Gestione%20delle%20spese),%20(Gestione%20delle%20spese)-(Aggiunta%20di%20una%20spesa),%20(Aggiunta%20di%20una%20spesa)%3C(Modifica%20o%20eliminazione%20di%20una%20spesa),%20[Utente%20Registrato]-(Pianificazione%20del%20budget),%20(Pianificazione%20del%20budget)-(Creazione%20di%20un%20budget%20mensile),%20(Creazione%20di%20un%20budget%20mensile)%3E(Aggiornamento%20del%20budget),%20[Utente%20Registrato]-(Visualizzazione%20delle%20Analisi%20Finanziarie),%20(Visualizzazione%20delle%20Analisi%20Finanziarie)%3E(Visualizzazione%20di%20grafici),%20(Visualizzazione%20di%20grafici)%3C(Gestione%20delle%20Notifiche),%20(Gestione%20delle%20Notifiche)%3E(Notifica%20superamento%20dei%20limiti%20di%20spesa),%20[Amministratore%20del%20sistema]-(Gestione%20degli%20Utenti),%20(Gestione%20degli%20Utenti)%3C(Disabilitazione%20o%20Eliminazione%20utenti),%20[Amministratore%20del%20sistema]-(Aggiornamento%20del%20software),%20(Gestione%20degli%20Utenti)%3E(Assistenza%20agli%20Utenti),">
+
+# VALUE PROPOSITION
+## FinanziaLife 
+### Migliora la tua gestione finanziaria con FinanziaLife 
+-FinanziaLife è la tua soluzione completa per la gestione finanziaria personale. Con un'interfaccia intuitiva e potenti funzionalità, ti offriamo il controllo totale sulle tue entrate, spese e budget. Grazie a strumenti avanzati di analisi finanziaria e notifiche personalizzate, raggiungi i tuoi obiettivi finanziari.
+
+### Lista dei benefici 
+-Controllo Totale delle Finanze:
+Gestisci le tue entrate e spese in un'unica piattaforma intuitiva.
+Crea e aggiorna facilmente il tuo budget mensile.
+
+-Analisi Dettagliata:
+Visualizza grafici e report dettagliati sulle tue finanze.
+Ricevi consigli personalizzati basati sulle tue abitudini di spesa.
+
+-Notifiche Intelligenti:
+Ricevi avvisi immediati quando superi i limiti di spesa.
+Resta sempre informato sullo stato del tuo budget.
+
+-Gestione Utenti Semplificata:
+Per gli amministratori del sistema, crea, modifica o disabilita utenti con facilità.
+Fornisci assistenza rapida agli utenti in caso di problemi.
+
+-Aggiornamenti Continui:
+L'amministratore del sistema può garantire prestazioni e sicurezza ottimali con gli aggiornamenti regolari del software.
+
+-Recupero Sicuro delle Credenziali:
+Recupera la password in modo sicuro tramite email o numero di telefono.
+
+-Personalizzazione del Profilo:
+Modifica facilmente le informazioni del tuo profilo utente.
+
+-Pianificazione Finanziaria Efficiente:
+Crea, aggiorna e visualizza il tuo budget corrente con facilità.
