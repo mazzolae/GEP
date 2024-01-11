@@ -115,3 +115,108 @@ Modifica facilmente le informazioni del tuo profilo utente.
 
 -Pianificazione Finanziaria Efficiente:
 Crea, aggiorna e visualizza il tuo budget corrente con facilità.
+
+
+
+# User Stories e Stima delle Ore
+
+## Sprint 1
+
+### 1. Utente Autenticato
+1. Come utente autenticato, essere in grado di effettuare il login inserendo le mie credenziali per accedere alla piattaforma.
+
+**Stima delle Ore:** 4 ore
+
+### 2. Recupero Password
+2. Come utente, poter richiedere il recupero della password tramite email o numero di telefono per ripristinare l'accesso al mio account.
+
+**Stima delle Ore:** 6 ore
+
+### 3. Modifica Profilo
+3. Come utente autenticato, avere la possibilità di modificare le informazioni del mio profilo per tenerle aggiornate.
+
+**Stima delle Ore:** 3 ore
+
+### 4. Registrazione
+4. Come nuovo utente, poter effettuare la registrazione fornendo le informazioni di base richieste.
+
+**Stima delle Ore:** 5 ore
+
+### 5. Aggiunta Fonte di Reddito
+5. Come utente autenticato, poter aggiungere nuove fonti di reddito alla mia lista.
+
+**Stima delle Ore:** 4 ore
+
+## Sprint 2
+
+### 6. Visualizzazione Riepilogo Entrate
+6. Come utente autenticato, poter visualizzare un riepilogo delle entrate registrate nella piattaforma.
+
+**Stima delle Ore:** 5 ore
+
+### 7. Aggiunta Spesa
+7. Come utente autenticato, poter registrare le mie spese in varie categorie.
+
+**Stima delle Ore:** 6 ore
+
+### 8. Visualizzazione Riepilogo Spese
+8. Come utente autenticato, visualizzare un riepilogo delle spese registrate nella piattaforma.
+
+**Stima delle Ore:** 5 ore
+
+### 9. Creazione Budget Mensile
+9. Come utente autenticato, creare un budget mensile basato sulle mie entrate e categorie di spesa.
+
+**Stima delle Ore:** 8 ore
+
+### 10. Aggiornamento Budget
+10. Come utente autenticato, poter aggiornare il mio budget in base alle entrate effettive e alle spese.
+
+**Stima delle Ore:** 6 ore
+
+## Sprint 3
+
+### 11. Visualizzazione Budget Corrente
+11. Come utente autenticato, poter visualizzare il mio budget corrente e le differenze tra budget pianificato ed effettivo.
+
+**Stima delle Ore:** 5 ore
+
+### 12. Visualizzazione Grafici e Report Finanziari
+12. Come utente autenticato, poter visualizzare grafici e report dettagliati sulle mie entrate e spese.
+
+**Stima delle Ore:** 7 ore
+
+### 13. Ricezione Consigli Finanziari
+13. Come utente autenticato, ricevere consigli finanziari personalizzati basati sulle mie abitudini di spesa.
+
+**Stima delle Ore:** 6 ore
+
+### 14. Notifica Superamento Limiti di Spesa
+14. Come utente autenticato, ricevere notifiche quando supero i limiti di spesa predefiniti.
+
+**Stima delle Ore:** 4 ore
+
+## Sprint 4
+
+### 15. Creazione Utenti (Amministratore)
+15. Come amministratore del sistema, poter creare nuovi utenti e assegnare privilegi.
+
+**Stima delle Ore:** 6 ore
+
+### 16. Assistenza agli Utenti (Amministratore)
+16. Come amministratore del sistema, poter fornire assistenza agli utenti e risolvere i loro problemi.
+
+**Stima delle Ore:** 7 ore
+
+### 17. Disabilitazione o Eliminazione Utenti (Amministratore)
+17. Come amministratore del sistema, poter disabilitare o eliminare utenti se necessario.
+
+**Stima delle Ore:** 5 ore
+
+### 18. Aggiornamento Software (Amministratore)
+18. Come amministratore del sistema, poter installare gli aggiornamenti del software per garantire le prestazioni e la sicurezza ottimali.
+
+**Stima delle Ore:** 6 ore
+
+### Sequenza di Fibonacci per le Stime:
+1, 2, 3, 5, 8, 13
