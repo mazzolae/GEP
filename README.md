@@ -5,8 +5,10 @@
 - Gli utenti registrati possono effettuare il login inserendo le loro credenziali.
 - Include: Inserimento delle credenziali di accesso.
 - Extend: Recupero della password.
-
-### 1.2 Recupero Password
+### 1.2 Gestione dell'Accesso
+- Modifica il sistema di autenticazione per supportare l'autenticazione multitenant. Ogni volta che un utente tenta di accedere, è necessario verificare le credenziali rispetto ai dati del tenant corrispondente.
+- Implementa la gestione delle sessioni in modo che ciascun tenant abbia la propria sessione e che le informazioni di sessione siano isolate tra i tenant.
+### 1.3 Recupero Password
 - Gli utenti possono richiedere il recupero della password tramite email o numero di telefono.
 - Il sistema invierà un link di ripristino alla casella di posta dell'utente.
 - Include: Recupero della password.
@@ -65,6 +67,9 @@
 ## 6. Gestione delle Notifiche
 ### 6.1 Notifica Superamento dei Limiti di Spesa
 - Gli utenti riceveranno notifiche quando superano i limiti di spesa predefiniti.
+### 6.2 Configurabilità
+- Aggiungi un'interfaccia utente per consentire agli amministratori del sistema di gestire le impostazioni specifiche del tenant, come limiti di spesa personalizzati, categorie personalizzate e preferenze di visualizzazione.
+- Assicurati che le modifiche alle impostazioni di configurazione siano applicate solo al tenant specifico e non influiscano sugli altri tenant.
   
 ## 7. Gestione degli Utenti (Amministratore del Sistema)
 ### 7.1 Creazione di Utenti
@@ -78,6 +83,12 @@
 ## 8. Aggiornamento del Software (Amministratore del Sistema)
 - L'amministratore del sistema può installare gli aggiornamenti del software per garantire le prestazioni e la sicurezza ottimali dell'applicazione.
 
+## 9. Gestione degli Errori e Monitoraggio
+- Aggiungi un sistema di logging e monitoraggio che consenta di tracciare e monitorare le attività specifiche del tenant, inclusi gli errori e le eccezioni che si verificano durante l'utilizzo dell'applicazione.
+- Assicurati che gli amministratori del sistema possano accedere ai log e ai dati di monitoraggio specifici del tenant per risolvere eventuali problemi.
+### 9.1 Reporting e Analisi Multitenant
+- Modifica i moduli di reporting e analisi per supportare l'aggregazione dei dati tra tutti i tenant. Ciò potrebbe richiedere la creazione di query SQL complesse o l'utilizzo di strumenti di reporting che supportano il multitenancy.
+- Assicurati che i report generati siano specifici del tenant e mostrino solo i dati relativi al tenant corrente.
 
 # DIAGRAMMA UML
 <img src="https://yuml.me/diagram/usecase/[Utente%20Registrato]-(Login%20In),%20(Login%20In)%3E(Inserimento%20credenziali%20di%20accesso),%20(Login%20In)%3C(Recupero%20della%20password),%20(Login%20In)%3C(Modifica%20Profilo),%20[Utente%20Registrato]-(Registrazione%20delle%20entrate),%20(Registrazione%20delle%20entrate)%3E(Aggiunta%20fonte%20di%20reddito),%20(Registrazione%20delle%20entrate)%3E(Visualizzazione%20del%20riepilogo%20delle%20entrate),%20(Aggiunta%20fonte%20di%20reddito)%3C(Modifica%20o%20Eliminazione%20della%20fonte%20di%20reddito),%20[Utente%20Registrato]-(Gestione%20delle%20spese),%20(Gestione%20delle%20spese)-(Aggiunta%20di%20una%20spesa),%20(Aggiunta%20di%20una%20spesa)%3C(Modifica%20o%20eliminazione%20di%20una%20spesa),%20[Utente%20Registrato]-(Pianificazione%20del%20budget),%20(Pianificazione%20del%20budget)-(Creazione%20di%20un%20budget%20mensile),%20(Creazione%20di%20un%20budget%20mensile)%3E(Aggiornamento%20del%20budget),%20[Utente%20Registrato]-(Visualizzazione%20delle%20Analisi%20Finanziarie),%20(Visualizzazione%20delle%20Analisi%20Finanziarie)%3E(Visualizzazione%20di%20grafici),%20(Visualizzazione%20di%20grafici)%3C(Gestione%20delle%20Notifiche),%20(Gestione%20delle%20Notifiche)%3E(Notifica%20superamento%20dei%20limiti%20di%20spesa),%20[Amministratore%20del%20sistema]-(Gestione%20degli%20Utenti),%20(Gestione%20degli%20Utenti)%3C(Disabilitazione%20o%20Eliminazione%20utenti),%20[Amministratore%20del%20sistema]-(Aggiornamento%20del%20software),%20(Gestione%20degli%20Utenti)%3E(Assistenza%20agli%20Utenti),">
